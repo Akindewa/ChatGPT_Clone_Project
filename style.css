@@ -10,26 +10,25 @@ body{
 
 .wrapper{
     margin: 2rem;
-    /* position: relative; */
+    font-size: 12px;
 }
 
 .first_container{
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
 }   
 
 .Input_container{
-   /* border: 3px solid red; */
    position: absolute;
-   top: 39%;
+   top: 35%;
    left: 24%;
    width: 50%;
 }
 
 .heading{
     margin-bottom: 1rem;
-    margin-left: 15rem;
+    margin-left: 14rem;
 }
 
 .input{
@@ -59,9 +58,9 @@ textarea {
 .input_subset{
     position: absolute;
     bottom: 35%;
-    left: 33%;
+    left:30%;
     display: flex;
-    gap: 8px;
+    gap: 10px;
 }
 
 .surprise-me-button {
@@ -74,8 +73,8 @@ textarea {
     background-color: #f0f0f0;
     cursor: pointer;
     gap: 1rem;
-    padding: 1rem;
-    border-radius: 0.6rem;
+    padding: 0.7rem;
+    border-radius: 0.4rem;
 }
 
 .dropdown-content{
@@ -127,7 +126,6 @@ textarea {
     cursor: pointer;
     margin-left: 6rem;
     margin-top: -1.45rem;
-    margin-bottom: 1rem;
 }
 
 .arrow-down:hover{
@@ -139,8 +137,9 @@ textarea {
     padding: 0.5rem;
     border-radius: 2rem;
     position: absolute;
-    top: 4.95rem;
-    left: 50rem;
+    top: 4.5rem;
+    left: 39.3rem;
+    border: none;
 }
 
 #upgrade_btn{
@@ -152,6 +151,84 @@ textarea {
 .upgradeBtn{
     margin-top: 1rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    /* .first_container{
+        display: flex;
+        gap: 27rem;
+    }
+
+    .arrow-down{
+        display: flex;
+        gap: 8px;
+        cursor: pointer;
+        margin-left: 12rem;
+        margin-top: -1.45rem;
+    }
+
+    .dropdown-content{
+        margin-top: 1rem;
+        cursor: pointer;
+        background-color: lightgray;
+        width: fit-content;
+        transition: background-color 0.3s ease;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+        padding: 1rem;
+        margin-left: 6rem;
+        border-radius: 2rem;
+    }
+
+    .Input_container{
+        position: absolute;
+        top: 45%;
+        left:8%;
+        width: 60%;
+    }
+
+    .heading{
+        margin-bottom: 1rem;
+        margin-left: 7.5rem;
+    }
+
+    .input_subset{
+        position: absolute;
+        bottom: 20%;
+        left:50%;
+        width: 100%;
+        display: flex;
+        gap: 12px;
+    } */
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
